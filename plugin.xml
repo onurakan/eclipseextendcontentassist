@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.oakan.extendcontentassist.TestCompletionProposal"
+         name="TestCompletionProposal"
+         point="org.eclipse.wst.sse.ui.completionProposal">
+         
+         <proposalComputer
+			   activate="true"
+			   categoryId="com.oakan.extendcontentassist.TestCompletionProposal"
+			   class="com.oakan.extendcontentassist.TestCompletionProposalComputer"
+			   id="com.oakan.extendcontentassist.TestCompletionProposalcomputer">      
+			<contentType id="org.eclipse.core.runtime.xml"/>      
+		 </proposalComputer>
+   </extension>
+</plugin>
